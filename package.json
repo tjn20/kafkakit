@@ -1,0 +1,47 @@
+{
+  "name": "kafkakit",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Advanced Node.js/TypeScript toolkit for Kafka with exactly-once semantics (EOS), transactional and idempotent producers, dynamic consumer groups, retry and dead-letter pipelines, producer pool management, multi-cluster support, and graceful shutdown. Fully typed and event-driven, with all internal complexity hidden. Designed to support Saga-based workflows and orchestration patterns for building reliable distributed systems.",
+  "keywords": [
+    "kafka",
+    "kafkajs",
+    "typescript",
+    "nodejs",
+    "exactly-once",
+    "eos",
+    "pipeline",
+    "event-driven",
+    "fencing",
+    "multi-cluster",
+    "microservices",
+    "transactions"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "TJN",
+    "url": "https://github.com/tjn20"
+  },
+  "bugs": {
+    "url": "https://github.com/tjn20/kafkakit/issues"
+  },
+  "homepage": "https://github.com/tjn20/kafkakit#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjn20/kafkakit"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "tsup": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "typescript": "^5.9.2"
+  }
+}

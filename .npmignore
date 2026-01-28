@@ -1,0 +1,8 @@
+/src
+/node_modules
+
+.env
+.DS_Store
+.gitignore
+ts.config.json
+tsup.config.ts
